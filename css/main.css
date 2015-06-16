@@ -1,0 +1,71 @@
+
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+}
+.navbar-brand{
+    font-size: 26px;
+}
+.navbar-brand span{
+    color: #f77b6f;
+}
+.blue
+{
+    background-color: #428BCA;
+}
+.bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.bg img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.filter{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0);
+    z-index: 1;
+    text-indent: -99999px;
+}
+#fish
+{
+    height: 66%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-left: -315px;
+    z-index: 1;
+}
+.jumbotron{
+    background:rgba(0,0,0,0.5);
+}
+.jumbotron h1{
+    color:#f77b6f ;
+}
+#left{
+    width: 33%;
+    height: 60%;
+    background: rgba(0,0,0,0.5);
+    float: left;
+    color:#428BCA ;
+}
+#right{
+    width: 62%;
+    height: 60%;
+    background: rgba(0,0,0,0.5);
+    float: right;
+}
+.next{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    margin-left: -23px;
+    z-index: 1;
+}
